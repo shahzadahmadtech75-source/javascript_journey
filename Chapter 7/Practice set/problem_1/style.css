@@ -1,0 +1,14 @@
+ul{
+    display: flex;
+    justify-content: flex-end;
+    
+    height: 100px;
+    background-color: white;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+ul li{
+    list-style-type: none;
+    margin: 15px;
+}

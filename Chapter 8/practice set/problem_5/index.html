@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .box1{
+            height: 100px;
+            width: 100px;
+            border: none;
+            border-radius: 50%;
+            background-color: blue;
+        }
+        .box2{
+            height: 30px;
+            width: 30px;
+            background-color: red;
+            transform: translate(-64px, 64px);
+
+        }
+        .glow{
+            background-color: white;
+            box-shadow: 0px 0px white;
+        }
+        .on{
+            background-color: cyan;
+            padding: 5px;
+            width: 50px;
+            border: 2px solid indianred;
+            border-radius: 12px;
+            transform: translate(-102px, 100px);
+        }
+        .on:hover{
+            background-color: purple;
+            color: white;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <button class="on">Click</button>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    background-color: red;
+    width: 300px;
+}
+.black{
+    color: white;
+
+}
+.font{
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.blue{
+   border: 3px solid blue;
+    border-radius: 23px;
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
+}
+.white{
+    background-color: cyan;
+}
+.green{
+    background-color: green;
+}
+.reds{
+    background-color: blue;
+}
